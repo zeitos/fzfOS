@@ -33,7 +33,7 @@ s() {
       p => spotify Playlists
 "
 EOF
-  read -n 1 type
+  read type
   case "$type" in
     a)
       app
